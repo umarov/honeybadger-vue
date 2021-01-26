@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Add a module export with an `install` function. This fixes builds in newer Vue apps written in TypeScript
+
 ## [1.0.0] - 2021-01-19
 ### Changed
 - Migrate honeybadger-js dependency to @honeybadger-io/js 3.0.0
